@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang 系统设计 rest 错误返回格式统一规范
+简介：golang benchmark 参数‑bench‑mem 统计内存分配，benchmark 开启内存统计，观察内存分配次数大小。
+ | 原文链接：http://book.ncnrpf.asia/blog/3059584.sHtMl
+
+原标题：设计思考：系统限流熔断降级完整防护体系
+简介：数据库事务 ACID 原理讲解，拆解事务四大特性，理解事务隔离、原子性，明白事务如何保障数据安全。
+ | 原文链接：http://book.ncnrpf.asia/blog/8291817.sHtMl
+
+原标题：零基础理解依赖管理与包管理器
+简介：golang 命令行交互 cobra 开发 cli，cobra 库开发功能完善命令行工具，子命令参数标志解析。
+ | 原文链接：http://book.ncnrpf.asia/blog/5261525.sHtMl
+
+原标题：golang mysql 读写分离简单实现
+简介：golang 反向代理 http 服务开发，手写简易 http 反向代理，转发请求，修改请求头响应头。
+ | 原文链接：http://book.ncnrpf.asia/blog/6389715.sHtMl
+
+原标题：入门实践：搭建简单的热更新开发环境
+简介：golang go‑zero 监控指标埋点，go‑zero 内置 metrics 监控，上报业务指标对接监控平台。
+ | 原文链接：http://book.ncnrpf.asia/blog/7672250.sHtMl
+
+原标题：调优方案：Web服务内核socket参数调优
+简介：golang os 主机名内核版本读取，os 读取主机名，内核信息，操作系统版本，获取运行环境信息。
+ | 原文链接：http://book.ncnrpf.asia/blog/9680360.sHtMl
+
+原标题：golang 系统设计 sql 注入 xss 防护实践
+简介：Git 标签版本标记发布管理，使用 Git 标签标记项目版本，打标签推送远程，用于版本发布、版本回溯。
+ | 原文链接：http://book.ncnrpf.asia/blog/1791689.sHtMl
+
+原标题：排错：静态资源CDN缓存未刷新旧资源持续返回
+简介：任务执行锁防止并发重复调度，增加任务执行锁，多实例环境，防止同一个定时任务并发多次运行。
+ | 原文链接：http://book.ncnrpf.asia/blog/5273637.sHtMl
+
+原标题：从零搭建本地数据库开发环境
+简介：CDN 缓存刷新获取最新静态资源，调用 CDN 刷新接口，清除节点旧缓存，用户访问到更新后的静态文件。
+ | 原文链接：http://book.ncnrpf.asia/blog/7480697.sHtMl
+
+原标题：TCP 心跳检测清理僵死连接
+简介：golang go 程序抢占调度理解，理解 go 抢占式调度原理，长循环阻塞调度，造成协程调度延迟。
+ | 原文链接：http://book.ncnrpf.asia/blog/8524926.sHtMl
+
+原标题：极简方式搭建个人技术文档站点
+简介：前端静态缓存更新生效处理，修改静态资源版本标识，处理浏览器强缓存，让更新资源生效。
+ | 原文链接：http://book.ncnrpf.asia/blog/5272516.sHtMl
+
+原标题：架构笔记：任务调度系统架构设计与可靠性
+简介：golang kafka 消费者位移管理，理解 kafka offset，手动提交位移，保证消息消费至少一次语义。
+ | 原文链接：http://book.ncnrpf.asia/blog/2939250.sHtMl
+
+原标题：实战项目：搭建本地Mock服务快速开发联调
+简介：golang go 泛型约束与类型集合，泛型 type set 约束，限制泛型支持类型，写出安全泛型代码。
+ | 原文链接：http://book.ncnrpf.asia/blog/6202927.sHtMl
+
+原标题：包管理器依赖缓存清理
+简介：数据库死锁成因规避方案，讲解数据库死锁产生条件，给出业务层面规避手段，减少死锁事件发生。
+ | 原文链接：http://book.ncnrpf.asia/blog/0820282.sHtMl
+
+原标题：部署复盘：容器资源限制CPU内存配置实践
+简介：内存溢出问题现象识别排查，识别内存溢出现象，梳理排查方向，定位内存持续上涨引发服务崩溃问题。
+ | 原文链接：http://book.ncnrpf.asia/blog/5278497.sHtMl
+
+原标题：调优方案：JVM内存参数优化，降低GC频率
+简介：golang 进程信号捕获 SIGUSR 自定义信号，捕获用户自定义信号，实现线上不重启触发调试、日志切换。
+ | 原文链接：http://book.ncnrpf.asia/blog/0432134.sHtMl
+
+原标题：新手向：npm/pip/maven依赖版本冲突入门排查
+简介：nestjs 框架模块化项目搭建，从零搭建 NestJS 项目，模块化拆分业务，搭建规范后端项目骨架。
+ | 原文链接：http://book.ncnrpf.asia/blog/1265890.sHtMl
+
+原标题：golang 系统设计 hot‑reload 热重载 go 开发工具
+简介：golang go‑zero 分布式锁组件使用，go‑zero 内置 redis 分布式锁，业务直接调用实现并发控制。
+ | 原文链接：http://book.ncnrpf.asia/blog/1809003.sHtMl
+
+原标题：golang 系统设计 gob msgpack 序列化对比
+简介：golang http body 必须关闭的重要性，无论成功失败必须关闭 request.Body，否则连接无法复用泄漏。
+ | 原文链接：http://book.ncnrpf.asia/blog/3713693.sHtMl
+
+原标题：实战项目：百万日志文件解析处理脚本实践
+简介：HTTP 状态码请求头完整梳理，汇总常用 HTTP 状态码与请求头含义，帮助快速看懂网络请求，排查接口通信问题。
+ | 原文链接：http://book.ncnrpf.asia/blog/5934937.sHtMl
+
+原标题：前端权限路由动态生成实现
+简介：请求重试组件退避策略实现，封装重试组件，实现指数退避策略，避免大量请求同时重试压垮下游。
+ | 原文链接：http://book.ncnrpf.asia/blog/1502578.sHtMl
+
+原标题：golang 系统设计传输加密 tls 配置要点
+简介：多操作系统开发兼容处理，解决不同系统路径、换行符、权限差异，保证项目跨平台正常运行。
+ | 原文链接：http://book.ncnrpf.asia/blog/6347027.sHtMl
+
+原标题：Practice：实现接口防重提交组件实践
+简介：golang go toml 配置注释保留，toml 解析保留注释，修改配置后写回保留原有注释。
+ | 原文链接：http://book.ncnrpf.asia/blog/6059115.sHtMl
+
+原标题：性能笔记：连接池参数调优数据库RPC连接池
+简介：golang http client Transport 参数调优，Transport 最大连接空闲连接，TLS 配置，http 客户端调优。
+ | 原文链接：http://book.ncnrpf.asia/blog/8134771.sHtMl
+
+原标题：golang 系统设计监控告警体系搭建思路
+简介：golang go 接口定义原则小接口，go 小接口设计原则，接口尽量小，只定义必要方法，提升代码灵活性。
+ | 原文链接：http://book.ncnrpf.asia/blog/1524472.sHtMl
+
+原标题：实战：容器内执行调试排错完整实操流程
+简介：golang go 终端 pty 伪终端操作，pty 启动子进程，模拟终端交互，实现交互式命令调用。
+ | 原文链接：http://book.ncnrpf.asia/blog/2701479.sHtMl
+
+原标题：开源实践：参与开源项目从Issue到PR完整流程
+简介：数值 key 浮点匹配异常规避，避免浮点数作为 Redis 等存储的 key，防止精度问题引发 key 匹配失败。
+ | 原文链接：http://book.ncnrpf.asia/blog/8462247.sHtMl
+
+原标题：Hands‑on：简易验证码生成校验后端实践
+简介：nodejs 接口限流防刷代码实现，Node 层实现接口限流，限制 IP 访问频次，防护接口被恶意高频调用。
+ | 原文链接：http://book.ncnrpf.asia/blog/1828171.sHtMl
+
+原标题：缓存穿透击穿雪崩全套防护
+简介：golang gorm 子查询嵌套查询写法，Gorm 实现子查询、嵌套查询，复杂条件查询简化代码编写。
+ | 原文链接：http://book.ncnrpf.asia/blog/0813038.sHtMl
+
+原标题：Security：密码存储哈希加盐最佳实践
+简介：从零编写简易 CLI 命令行工具，通过实战案例实现基础命令交互，理解命令行程序执行逻辑，产出可运行小工具。
+ | 原文链接：http://book.ncnrpf.asia/blog/6080794.sHtMl
+
+原标题：轻量 API 后端接口服务快速开发
+简介：golang gitlab ci go 项目流水线编写，gitlab ci 流水线执行单元测试、静态检查、构建推送镜像。
+ | 原文链接：http://book.ncnrpf.asia/blog/8606959.sHtMl
+
+原标题：操作系统内核版本适配服务
+简介：前端组件库按需加载性能优化，配置组件库按需引入，避免引入全部组件，减少打包产物体积。
+ | 原文链接：http://book.ncnrpf.asia/blog/2949256.sHtMl
+
+原标题：golang 系统设计 protobuf oneof 类型业务场景
+简介：monorepo 项目多包管理最佳实践，monorepo 仓库管理多子包，统一版本管理，处理包之间互相依赖。
+ | 原文链接：http://book.ncnrpf.asia/blog/2939194.sHtMl
+
+原标题：多规则数据脱敏组件开发
+简介：golang loki 日志收集 go 服务集成，日志输出适配 loki，标签携带 traceId，日志集中检索排查问题。
+ | 原文链接：http://book.ncnrpf.asia/blog/3759153.sHtMl
+
+原标题：本地运行正常线上报错排查
+简介：vue pinia 状态管理实战教程，Pinia 完整实战示例，实现状态定义修改，模块拆分替代 Vuex。
+ | 原文链接：http://book.ncnrpf.asia/blog/5057055.sHtMl
+
+原标题：项目实践：数据库慢日志采集分析落地实践
+简介：golang 参数校验业务接口处理，Go 接口入参参数校验，拦截非法入参，减少业务层参数判断代码。
+ | 原文链接：http://book.ncnrpf.asia/blog/8480269.sHtMl
+
+原标题：Troubleshoot：批量导入数据，事务过大回滚日志暴涨
+简介：线程调度优化减少上下文切换，优化线程数量，减少线程频繁切换，降低 CPU 上下文切换开销。
+ | 原文链接：http://book.ncnrpf.asia/blog/4934704.sHtMl
+
+原标题：golang 系统设计网关鉴权鉴权转发流程讲解
+简介：golang 简单爬虫请求防封禁，简易 Go 爬虫实现，增加请求间隔、UA 伪装，规避被目标站点封禁 IP。
+ | 原文链接：http://book.ncnrpf.asia/blog/7080804.sHtMl
+
+原标题：golang 跨域处理中间件编写
+简介：提交第一个开源 PR 完整流程，Fork 项目、修改代码、提交 Pull Request，讲解 PR 规范，提升合并通过率。
+ | 原文链接：http://book.ncnrpf.asia/blog/6395707.sHtMl
+
+原标题：golang redis 事务 multi exec 使用
+简介：nodejs 跨域中间件配置细节，Express 跨域中间件配置细节，处理预检请求，修复偶现跨域失效。
+ | 原文链接：http://book.ncnrpf.asia/blog/1939253.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：读懂开源项目 README 实用技巧
+简介：golang redis geo 地理位置存储查询，Redis GEO 存储经纬度，查询附近点位，实现附近人业务功能。
+ | 原文链接：http://book.ncnrpf.asia/blog/5372814.sHtMl
+
+原标题：架构复盘：网关层、应用层、数据库层层限流架构
+简介：golang go 逃逸分析实操查看，go build‑gcflags=-m 查看逃逸分析，减少堆分配优化程序性能。
+ | 原文链接：http://book.ncnrpf.asia/blog/2939265.sHtMl
+
+原标题：Hands‑on：简易网关路由转发组件开发
+简介：golang runtime.Gosched 主动让出调度，长计算循环主动 Gosched，让出调度权，防止其他协程饥饿。
+ | 原文链接：http://book.ncnrpf.asia/blog/7490803.sHtMl
+
+原标题：golang 系统设计 hot‑reload 热重载 go 开发工具
+简介：Git 标签版本标记发布管理，使用 Git 标签标记项目版本，打标签推送远程，用于版本发布、版本回溯。
+ | 原文链接：http://book.ncnrpf.asia/blog/5291783.sHtMl
+
+原标题：安全笔记：CSP内容安全策略配置实践
+简介：golang go 线上故障排查完整流程，CPU 高、内存上涨、接口超时、goroutine 泄露一套排查处理流程。
+ | 原文链接：http://book.ncnrpf.asia/blog/4824727.sHtMl
+
+原标题：方案设计：接口版本管理架构向前兼容策略
+简介：golang os 主机名内核版本读取，os 读取主机名，内核信息，操作系统版本，获取运行环境信息。
+ | 原文链接：http://book.ncnrpf.asia/blog/9667050.sHtMl
+
+原标题：手写简易 MQ 理解消息存储消费
+简介：golang cpu pprof 性能分析实操，使用 pprof 采集 CPU 性能数据，定位 CPU 高占用函数，做性能优化。
+ | 原文链接：http://book.ncnrpf.asia/blog/9371479.sHtMl
+
+原标题：golang 系统设计配置灰度下发简单实现思路
+简介：golang cgo 调用 C 语言代码示例，cgo 调用 C 函数，go 与 C 互相调用，对接 C 语言库能力。
+ | 原文链接：http://book.ncnrpf.asia/blog/3057585.sHtMl
+
+原标题：golang 系统设计本地消息表可靠消息最终一致性
+简介：golang 限流器熔断降级组合使用，限流熔断降级组合架构，流量防护完整方案，保障服务稳定性。
+ | 原文链接：http://book.ncnrpf.asia/blog/5272516.sHtMl
+
+原标题：接口幂等性防重复请求实现
+简介：包管理器依赖冲突解决方案，分析依赖冲突产生根源，提供版本调整、锁定依赖等手段，解决项目依赖报错问题。
+ | 原文链接：http://book.ncnrpf.asia/blog/5270793.sHtMl
+
+原标题：Security：RPC调用身份认证安全加固
+简介：多线程线程安全脏数据规避，梳理多线程共享变量，做好同步控制，避免并发修改产生脏数据。
+ | 原文链接：http://book.ncnrpf.asia/blog/6494838.sHtMl
+
+原标题：实践：前后端分离项目登录状态保持完整方案
+简介：golang atomic.Value 存储任意类型数据，atomic.Value 安全存储读取任意类型，配置热更新常用。
+ | 原文链接：http://book.ncnrpf.asia/blog/2949365.sHtMl
+
+原标题：golang 系统设计防爬虫简单策略
+简介：golang go 接口定义原则小接口，go 小接口设计原则，接口尽量小，只定义必要方法，提升代码灵活性。
+ | 原文链接：http://book.ncnrpf.asia/blog/5927072.sHtMl
+
+原标题：golang 系统设计锁优化减少竞争提升吞吐
+简介：代码格式化工具团队统一风格，接入格式化工具，统一全团队代码书写风格，减少格式类 git 冲突。
+ | 原文链接：http://book.ncnrpf.asia/blog/5830463.sHtMl
+
+原标题：Troubleshoot：RPC序列化对象字段增减兼容踩坑
+简介：golang sync/atomic 原子操作使用注意，理解原子操作内存顺序，规避原子操作错误使用带来 bug。
+ | 原文链接：http://book.ncnrpf.asia/blog/2602693.sHtMl
+
+原标题：golang 系统设计定时任务调度时间校准要点
+简介：CLI 批量处理工具文件操作开发，开发命令行批量工具，实现批量文件处理，提升重复文件处理效率。
+ | 原文链接：http://book.ncnrpf.asia/blog/1501693.sHtMl
+
+原标题：Troubleshooting：数据库索引失效，查询性能暴跌
+简介：eslint prettier 代码规范落地，配置 eslint 与 prettier，做代码检查格式化，统一前端团队代码风格。
+ | 原文链接：http://book.ncnrpf.asia/blog/0461472.sHtMl
+
+原标题：golang 系统设计蓝绿发布滚动发布对比
+简介：容器软链接文件权限修复，修复容器内软链接文件权限，让程序能够正常读取软链接指向的文件。
+ | 原文链接：http://book.ncnrpf.asia/blog/3150382.sHtMl
+
+原标题：性能调优：MySQL查询性能优化实战清单
+简介：接口签名验签完整安全方案，一套完整接口签名方案，包含签名生成、请求携带、服务端验签校验。
+ | 原文链接：http://book.ncnrpf.asia/blog/5262427.sHtMl
+
+原标题：实战项目：GitSubmodule管理多仓库实践
+简介：hosts 配置本地回环访问修复，修改 hosts 配置，修复 127.0.0.1 解析异常，本地服务访问失败问题。
+ | 原文链接：http://book.ncnrpf.asia/blog/2947360.sHtMl
+
+原标题：nestjs 权限守卫鉴权实现方案
+简介：golang time 时间比较 Before After Equal，时间比较不要直接减，使用内置方法判断时间先后。
+ | 原文链接：http://book.ncnrpf.asia/blog/0724147.sHtMl
+
+原标题：golang ci 流水线自动部署 k8s 示例
+简介：golang go 程序敏感信息禁止打印日志，密钥密码禁止输出日志，防止敏感信息日志泄露。
+ | 原文链接：http://book.ncnrpf.asia/blog/3373648.sHtMl
+
+原标题：Practice：实现接口mock动态返回不同响应
+简介：golang os 打开文件 O_APPEND O_CREATE 标志，OpenFile 标志位，控制文件创建追加截断行为。
+ | 原文链接：http://book.ncnrpf.asia/blog/2757070.sHtMl
+
+原标题：golang k8s 本地 minikube 调试应用
+简介：golang ioutil 已废弃替换方案，ioutil 废弃之后替换为 os io 包函数，更新旧项目代码。
+ | 原文链接：http://book.ncnrpf.asia/blog/1825249.sHtMl
+
+原标题：实践：静态站点自动化部署到GitHubPages
+简介：DNS TTL 配置域名切换生效，调整 DNS 解析 TTL，缩短缓存时间，域名变更后可以快速全网生效。
+ | 原文链接：http://book.ncnrpf.asia/blog/7696747.sHtMl
+
+原标题：Architecture：中小型后端服务整体架构设计复盘
+简介：golang 配置文件热加载监听变更，监听配置文件改动，自动重新加载配置，业务即时生效无需重启。
+ | 原文链接：http://book.ncnrpf.asia/blog/8123368.sHtMl
+
+原标题：安全复盘：CSRF跨站请求伪造防护配置
+简介：golang go work 多模块本地开发，go work 多模块本地同时开发，本地模块互相引用，无需推送仓库。
+ | 原文链接：http://book.ncnrpf.asia/blog/8212291.sHtMl
+
+原标题：实战：Docker资源监控查看容器状态实操
+简介：golang go mod graph 查看依赖关系，go mod graph 打印依赖树，定位间接依赖来源，解决版本冲突。
+ | 原文链接：http://book.ncnrpf.asia/blog/5948145.sHtMl
+
+原标题：Redis 热点 key 拆分降低集群压力
+简介：读懂开源项目 README 实用技巧，教你快速解析开源项目说明文档，提取安装、运行、配置关键信息，快速上手项目。
+ | 原文链接：http://book.ncnrpf.asia/blog/9314030.sHtMl
+
+原标题：快速上手简单的限流逻辑模拟实现
+简介：网络读取超时设置连接挂起防护，设置网络读取超时时间，防止请求无限挂起不返回，占用连接资源。
+ | 原文链接：http://book.ncnrpf.asia/blog/4150505.sHtMl
+
+原标题：golang docker 私有仓库搭建使用
+简介：golang 任务失败重试与死信队列，异步任务失败自动重试，超过重试次数进入死信队列人工处理。
+ | 原文链接：http://book.ncnrpf.asia/blog/8594728.sHtMl
+
+原标题：前端打包产物体积压缩优化
+简介：echarts 大数据渲染性能调优，大数据量 ECharts 图表调优，数据采样、分片渲染，解决图表卡顿。
+ | 原文链接：http://book.ncnrpf.asia/blog/8505959.sHtMl
+
+原标题：Troubleshoot：磁盘inode耗尽，无法新建文件
+简介：golang http 代理客户端配置，Go HTTP Client 配置代理，通过代理服务器发起网络请求。
+ | 原文链接：http://book.ncnrpf.asia/blog/9313025.sHtMl
+
+原标题：golang 系统设计内部服务契约测试简单思路
+简介：golang go 变量逃逸场景汇总，切片、指针、返回局部变量引发逃逸，变量分配到堆影响 GC。
+ | 原文链接：http://book.ncnrpf.asia/blog/6576770.sHtMl
+
+原标题：架构复盘：容器资源隔离架构CPU内存限制设计
+简介：提交第一个开源 PR 完整流程，Fork 项目、修改代码、提交 Pull Request，讲解 PR 规范，提升合并通过率。
+ | 原文链接：http://book.ncnrpf.asia/blog/7696771.sHtMl
+
+原标题：不必要字符转义关闭业务异常
+简介：golang 数据库连接泄露排查，定位 Go 数据库连接泄露，连接没有归还池，导致连接耗尽报错。
+ | 原文链接：http://book.ncnrpf.asia/blog/0490258.sHtMl
+
+原标题：golang 系统设计无锁编程思路简单示例
+简介：golang math 包常用数学函数，绝对值取整平方根三角函数，业务数学计算工具。
+ | 原文链接：http://book.ncnrpf.asia/blog/6373625.sHtMl
+
+原标题：HelloGitHubPages：部署你的第一个静态博客
+简介：内网 DNS 不稳定随机报错排查，定位内网 DNS 抖动问题，配置备选 DNS，解决偶现域名解析失败。
+ | 原文链接：http://book.ncnrpf.asia/blog/9324138.sHtMl
+
+原标题：Practice：实现多数据源动态切换组件实践
+简介：express 请求参数校验处理，接入参数校验库，校验入参，拦截非法参数，提前拦截错误请求。
+ | 原文链接：http://book.ncnrpf.asia/blog/2039460.sHtMl
+
+原标题：nodejs 日志轮转生产环境配置
+简介：golang 集成测试测试数据库回滚，集成测试结束自动回滚数据库，不污染测试环境数据。
+ | 原文链接：http://book.ncnrpf.asia/blog/7493627.sHtMl
+
+三、实战开发｜Practice
+原标题：优化实践：读写分离分担主库查询压力
+简介：JSON XML 数据解析处理示例，演示两种格式数据解析与序列化，增加异常捕获，处理格式错乱导致解析失败。
+ | 原文链接：http://book.ncnrpf.asia/blog/8725159.sHtMl
+
+原标题：golang redis hyperloglog 基数统计
+简介：golang 容器内读取 k8s 配置 configmap，程序读取 k8s configmap 配置，配置与镜像分离便于运维。
+ | 原文链接：http://book.ncnrpf.asia/blog/2841394.sHtMl
+
+原标题：golang 系统设计唯一索引业务使用场景
+简介：提交第一个开源 PR 完整流程，Fork 项目、修改代码、提交 Pull Request，讲解 PR 规范，提升合并通过率。
+ | 原文链接：http://book.ncnrpf.asia/blog/3780249.sHtMl
+
+原标题：Nginx 请求头大小上限调整
+简介：golang proto 默认值坑点梳理，梳理 Protobuf 默认值坑，零值字段区分未赋值，避免业务逻辑错误。
+ | 原文链接：http://book.ncnrpf.asia/blog/8158926.sHtMl
+
+原标题：实践：多配置文件合并加载组件实现
+简介：异步异常捕获避免进程崩溃，捕获异步代码内部抛出异常，防止未捕获异常直接导致整个进程退出。
+ | 原文链接：http://book.ncnrpf.asia/blog/0480138.sHtMl
+
+原标题：nodejs 单元测试 jest 实操教程
+简介：消息队列生产消费模型入门，讲解消息队列生产、存储、消费流程，理解异步解耦、削峰，掌握消息队列基础概念。
+ | 原文链接：http://book.ncnrpf.asia/blog/5040571.sHtMl
+
+原标题：nestjs 拦截器过滤器管道实战
+简介：golang http 服务优雅关闭完整示例，接收终止信号，停止接收新请求，等待现有请求处理完毕后退出服务。
+ | 原文链接：http://book.ncnrpf.asia/blog/1839182.sHtMl
+
+原标题：入门实践：简易导出导入文件功能实现
+简介：GitHub Markdown 文档语法汇总，整理 Markdown 常用语法，编写仓库 README、文档，提升开源项目文档排版质量。
+ | 原文链接：http://book.ncnrpf.asia/blog/8596947.sHtMl
+
+原标题：架构笔记：OAuth2授权服务架构模式拆解
+简介：空指针异常判空容错处理，讲解空指针产生场景，规范判空逻辑，增加容错，避免空指针直接造成程序崩溃。
+ | 原文链接：http://book.ncnrpf.asia/blog/6071683.sHtMl
+
+原标题：Performance：避免全表扫描索引失效场景汇总
+简介：业务错误码完整落地实践，落地完整业务错误码，枚举全部业务异常，统一返回，配套文档说明。
+ | 原文链接：http://book.ncnrpf.asia/blog/3047259.sHtMl
+
+原标题：记一次限流组件误配置把正常用户拦截
+简介：golang 时间轮算法实现延时调度，手写简易时间轮，高并发大量延时任务，降低轮询 CPU 消耗。
+ | 原文链接：http://book.ncnrpf.asia/blog/7371794.sHtMl
+
+原标题：Architecture：BFF后端聚合层架构适用场景
+简介：CPU 亲和性配置负载均衡调度，配置进程 CPU 亲和，均衡利用多核 CPU，优化程序调度性能。
+ | 原文链接：http://book.ncnrpf.asia/blog/7163626.sHtMl
+
+原标题：golang 系统设计 mq 消息积压解决方案
+简介：golang snowflake 时钟回拨解决方案，雪花算法处理时钟回拨，防止生成重复 ID，保证 ID 全局唯一。
+ | 原文链接：http://book.ncnrpf.asia/blog/7158034.sHtMl
+
+原标题：安全实践：容器最小化镜像减少攻击面
+简介：nodejs http 服务性能调优实战，调优 Node HTTP 服务内核参数，连接复用，提升接口并发处理能力。
+ | 原文链接：http://book.ncnrpf.asia/blog/4936824.sHtMl
+
+原标题：Practice：实现异步任务结果查询回调实践
+简介：golang runtime.Gosched 主动让出调度，长计算循环主动 Gosched，让出调度权，防止其他协程饥饿。
+ | 原文链接：http://book.ncnrpf.asia/blog/6048116.sHtMl
+
+原标题：golang kafka 监控指标简单梳理
+简介：nodejs 单元测试 jest 实操教程，Jest 单元测试实操，编写测试用例，mock 依赖，验证业务逻辑正确性。
+ | 原文链接：http://book.ncnrpf.asia/blog/6273505.sHtMl
+
+原标题：HelloMarkdown：GitHubMarkdown完整语法速查
+简介：前端错误监控上报系统搭建，搭建前端错误监控，捕获页面 JS 错误，上报后端，快速发现线上页面 bug。
+ | 原文链接：http://book.ncnrpf.asia/blog/6371516.sHtMl
+
+原标题：项目实践：幂等表实现接口幂等业务实践
+简介：golang net/http/httptest 服务端模拟，httptest.NewRecorder 记录 handler 响应，校验返回状态码 body。
+ | 原文链接：http://book.ncnrpf.asia/blog/2969364.sHtMl
+
+原标题：效率笔记：终端开发工具提升日常调试效率
+简介：golang toml 配置文件解析教程，Go 解析 Toml 格式配置，适用于项目配置管理场景。
+ | 原文链接：http://book.ncnrpf.asia/blog/9859460.sHtMl
+
+原标题：安全笔记：依赖包漏洞检测供应链安全
+简介：golang goreleaser 自动版本发布打包，goreleaser 自动化打包发布，生成多平台二进制归档文件。
+ | 原文链接：http://book.ncnrpf.asia/blog/7495037.sHtMl
+
+原标题：踩坑记录：乐观锁版本号处理不当更新失败
+简介：nodejs 定时任务生产环境避坑，Node 定时任务线上踩坑汇总，集群重复执行、任务阻塞等问题解决方案。
+ | 原文链接：http://book.ncnrpf.asia/blog/3158475.sHtMl
+
+原标题：架构笔记：数据库连接池架构参数调优思路
+简介：vite 插件开发自定义构建逻辑，开发自定义 vite 插件，介入构建生命周期，实现项目个性化构建逻辑。
+ | 原文链接：http://book.ncnrpf.asia/blog/4384622.sHtMl
+
+原标题：golang mysql innodb 事务隔离级别
+简介：golang io.Copy 流式拷贝数据，io.Copy 拷贝 reader 到 writer，不用加载全部数据到内存。
+ | 原文链接：http://book.ncnrpf.asia/blog/1591362.sHtMl
+
+原标题：Hands‑on：简易链路追踪原型开发实践
+简介：DNS 解析异常第三方调用故障，排查 DNS 解析故障，修复域名解析，恢复第三方接口网络调用。
+ | 原文链接：http://book.ncnrpf.asia/blog/5247926.sHtMl
+
+原标题：调优方案：消息批量消费提升MQ处理吞吐量
+简介：前后端会话登录状态持久化，实现登录状态持久存储，重启服务登录状态不丢失，保障会话稳定性。
+ | 原文链接：http://book.ncnrpf.asia/blog/2939148.sHtMl
+
+原标题：golang mongodb 分页性能优化技巧
+简介：nodejs 跨域中间件配置细节，Express 跨域中间件配置细节，处理预检请求，修复偶现跨域失效。
+ | 原文链接：http://book.ncnrpf.asia/blog/2637249.sHtMl
+
+原标题：数据库死锁成因规避方案
+简介：慢查询分析索引调优数据库实战，抓取慢查询，分析执行计划，优化索引，解决数据库慢查询拖慢业务。
+ | 原文链接：http://book.ncnrpf.asia/blog/1536959.sHtMl
+
+原标题：DevOps：容器网络模式选型与坑点总结
+简介：git rebase 整理提交历史实操，使用 rebase 整理杂乱提交记录，将多条提交合并，保持 git 提交历史干净线性。
+ | 原文链接：http://book.ncnrpf.asia/blog/0313826.sHtMl
+
+原标题：排错：CI缓存策略错误，每次全量重新构建
+简介：语义化版本依赖管理防错乱，项目依赖遵循语义版本约束，规避依赖自动升级引入不兼容变更。
+ | 原文链接：http://book.ncnrpf.asia/blog/9507959.sHtMl
+
+原标题：性能复盘：锁等待严重业务逻辑优化记录
+简介：golang go 调用动态链接库 so 文件，go 加载 so 动态库调用函数，复用编译好的 C 动态库。
+ | 原文链接：http://book.ncnrpf.asia/blog/9563804.sHtMl
+
+原标题：RPC 报文大小上限调优大请求
+简介：golang go 并发模式 or‑channel 信号合并，合并多个 done 信号，任意一个完成触发退出逻辑。
+ | 原文链接：http://book.ncnrpf.asia/blog/8485716.sHtMl
+
+原标题：分布式事务最终一致性实现
+简介：限流窗口绕过漏洞修复方案，修复限流时间窗口漏洞，避免攻击者绕过限流规则，保障接口防护有效。
+ | 原文链接：http://book.ncnrpf.asia/blog/7595637.sHtMl
+
+原标题：入门实践：搭建简单的热更新开发环境
+简介：golang sort 切片排序自定义 less，sort.Slice 切片快速排序，自定义 less 函数实现业务排序。
+ | 原文链接：http://book.ncnrpf.asia/blog/3894588.sHtMl
+
+原标题：安全实践：最小权限原则数据库账号管控
+简介：golang 滑动窗口限流算法 go 实现，滑动窗口限流，解决固定窗口临界流量突增漏洞，限流更精准。
+ | 原文链接：http://book.ncnrpf.asia/blog/2705771.sHtMl
+
+原标题：Practice：实现简单信号处理优雅停机实践
+简介：提交第一个开源 PR 完整流程，Fork 项目、修改代码、提交 Pull Request，讲解 PR 规范，提升合并通过率。
+ | 原文链接：http://book.ncnrpf.asia/blog/6081915.sHtMl
+
+原标题：golang mysql 连接泄漏检测方法
+简介：批量异步处理系统业务落地，构建批量异步处理系统，把耗时业务异步化，提升接口响应速度。
+ | 原文链接：http://book.ncnrpf.asia/blog/6595726.sHtMl
+
+原标题：线程调度优化减少上下文切换
+简介：golang context.Background 与 TODO 区别，Background 主流程根上下文，TODO 不确定用哪个上下文时使用。
+ | 原文链接：http://book.ncnrpf.asia/blog/1728929.sHtMl
+
+原标题：golang 系统设计回调异步处理防止超时阻塞
+简介：空指针异常判空容错处理，讲解空指针产生场景，规范判空逻辑，增加容错，避免空指针直接造成程序崩溃。
+ | 原文链接：http://book.ncnrpf.asia/blog/5269493.sHtMl
+
+原标题：golang 系统设计消息消费 offset 管理策略
+简介：golang 正则表达式 Go 实操案例，正则匹配提取替换，处理手机号邮箱校验，规避正则回溯 CPU 暴涨。
+ | 原文链接：http://book.ncnrpf.asia/blog/6382704.sHtMl
+
+原标题：坑点：gitsubmodule子模块更新失败踩坑
+简介：express 请求参数校验处理，接入参数校验库，校验入参，拦截非法参数，提前拦截错误请求。
+ | 原文链接：http://book.ncnrpf.asia/blog/7424927.sHtMl
+
+四、架构设计｜Architecture
+原标题：Docker 容器时区错误修复方案
+简介：golang ip 限流黑名单实现方案，基于 IP 做限流与黑名单，拦截恶意 IP 访问，保护接口服务。
+ | 原文链接：http://book.ncnrpf.asia/blog/5262737.sHtMl
+
+原标题：golang 系统设计参数校验统一处理方案
+简介：golang 多协程任务池并发控制，实现协程任务池，控制并发协程数量，防止无限制创建 goroutine。
+ | 原文链接：http://book.ncnrpf.asia/blog/0613139.sHtMl
+
+原标题：HelloGitHubPages：部署你的第一个静态博客
+简介：golang dns 自定义解析器实现，自定义 dns 解析，指定 dns 服务器，控制域名解析逻辑，适配内网环境。
+ | 原文链接：http://book.ncnrpf.asia/blog/5480582.sHtMl
+
+原标题：防火墙 IP 白名单回调接口放行
+简介：golang uuid 生成多种版本实现，生成 uuid v1 v4，生成唯一标识，业务用于单据编号场景。
+ | 原文链接：http://book.ncnrpf.asia/blog/8150150.sHtMl
+
+原标题：Troubleshooting：代理环境下证书校验失败HTTPS报错
+简介：业务错误码完整落地实践，落地完整业务错误码，枚举全部业务异常，统一返回，配套文档说明。
+ | 原文链接：http://book.ncnrpf.asia/blog/2037470.sHtMl
+
+原标题：golang 系统设计定时任务执行超时中断防护
+简介：编译打包产物依赖分析解读，分析打包之后产物组成，理清运行依赖文件，排查打包后缺失文件问题。
+ | 原文链接：http://book.ncnrpf.asia/blog/6379170.sHtMl
+
+原标题：踩坑：大报文传输，RPC消息超过大小限制
+简介：正则表达式文本处理实战案例，结合业务场景演示正则匹配、提取、替换，处理手机号、邮箱等各类文本校验需求。
+ | 原文链接：http://book.ncnrpf.asia/blog/9702691.sHtMl
+
+原标题：golang 系统设计唯一索引业务使用场景
+简介：golang 性能压测 wr 工具实操指南，wr 压测工具对 Go 接口压测，观察 QPS 延迟，定位接口性能瓶颈。
+ | 原文链接：http://book.ncnrpf.asia/blog/3805669.sHtMl
+
+原标题：golang 系统设计 ide 配置 go 开发效率提升技巧
+简介：golang os 主机名内核版本读取，os 读取主机名，内核信息，操作系统版本，获取运行环境信息。
+ | 原文链接：http://book.ncnrpf.asia/blog/8660033.sHtMl
+
+原标题：调优方案：前端静态资源打包性能体积优化
+简介：golang nats 轻量消息队列 go 开发，nats 高性能轻量消息系统，发布订阅模式异步解耦业务。
+ | 原文链接：http://book.ncnrpf.asia/blog/0550448.sHtMl
+
+原标题：golang 系统设计容器健康检查设计思路
+简介：golang kitex 字节微服务框架入门，kitex 开发 rpc 微服务，代码生成，服务注册发现完整流程。
+ | 原文链接：http://book.ncnrpf.asia/blog/8714959.sHtMl
+
+原标题：golang 系统设计本地缓存更新失效方案实现
+简介：golang 漏桶算法实现接口限流，漏桶算法控制请求流出速率，平滑突发流量，削平流量峰值。
+ | 原文链接：http://book.ncnrpf.asia/blog/1820281.sHtMl
+
+原标题：5分钟快速搭建个人技术文档站点
+简介：golang gorm 事务手动回滚提交，手动控制事务流程，业务异常主动回滚，保障数据操作原子性。
+ | 原文链接：http://book.ncnrpf.asia/blog/4724919.sHtMl
+
+原标题：架构复盘：热点数据防护架构防止节点过载
+简介：golang go 并发模式 errgroup 使用，errgroup 结合 context，协程组，任意协程出错整体取消任务。
+ | 原文链接：http://book.ncnrpf.asia/blog/3040691.sHtMl
+
+原标题：golang 静态文件服务搭建教程
+简介：golang trace 链路追踪 opentelemetry，opentelemetry 实现链路追踪，生成 traceId spanId，完整记录调用链路。
+ | 原文链接：http://book.ncnrpf.asia/blog/0725141.sHtMl
+
+原标题：实战：Nginx负载均衡多种策略配置实践
+简介：前端大文件分片上传完整方案，前端分片切割大文件，配合后端分片接口，实现稳定大文件上传。
+ | 原文链接：http://book.ncnrpf.asia/blog/6070584.sHtMl
+
+原标题：安全复盘：OAuth2授权流程安全坑点汇总
+简介：本地数据库开发环境搭建指南，讲解数据库安装配置、账号权限设置、连接测试，快速搭建用于开发调试的数据库实例。
+ | 原文链接：http://book.ncnrpf.asia/blog/8673734.sHtMl
+
+原标题：golang base64 编码解码实操
+简介：golang go ring 环形容器循环队列，ring 环形链表实现循环队列，环形缓冲区业务场景。
+ | 原文链接：http://book.ncnrpf.asia/blog/2704800.sHtMl
+
+?
